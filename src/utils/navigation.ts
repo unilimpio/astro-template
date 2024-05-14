@@ -1,38 +1,35 @@
 // An array of links for navigation bar
 const navBarLinks = [
   { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
+  { name: "Productos", url: "/products" },
+  { name: "Servicios", url: "/services" },
   { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Contacto", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Nuestras soluciones",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Productos Químicos", url: "/products/quimicos" },
+      { name: "Productos Absorbentes", url: "/products/absorbentes" },
+      { name: "Servicios de aromatización y sanitización", url: "/services" },
+      { name: "Dispensadores", url: "/products/dispensers" },
     ],
   },
   {
-    section: "Company",
+    section: "Compañia",
     links: [
-      { name: "About us", url: "#" },
+      { name: "Acerca de", url: "#" },
       { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "Oportunidades laborales", url: "/oportunidades-laborales#" },
+      { name: "Denuncie actos de corrupción", url: "/denuncia-corrupcion" },
     ],
   },
 ];
 // An object of links for social icons
 const socialLinks = {
-  facebook: "https://www.facebook.com/",
-  x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
-  google: "https://www.google.com/",
-  slack: "https://slack.com/",
+  facebook: "https://www.facebook.com/unilimpio",
 };
 
 export default {

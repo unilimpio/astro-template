@@ -1,22 +1,27 @@
 [
   {
-    "heading": "Dedicated Teams",
-    "content": "Benefit from our committed teams who ensure your success is personal. Count on expert guidance and exceptional results throughout your project journey.",
-    "svg": "groups"
+    "heading": "Eficiente",
+    "content": "Nuestras solcuiones de higiene están basadas en productos concentrados para uso profesional de alto desempeño que utilizados adecuadamente con equipos de dosificación y dispensación le permiten alcanzar una altísima eficiencia en el uso y consumo de productos higiénicos.",
+    "svg": "tools"
   },
   {
-    "heading": "Simplicity and Affordability",
-    "content": "Find easy-to-use, affordable solutions with ScrewFast's line of tools and equipment. Our products make procurement simple and keep projects within budget.",
+    "heading": "Total",
+    "content": "Un solo proveedor para todas sus necesidades de higiene, en todo el territorio nacional.",
+    "svg": "checkCircle"
+  },
+  {
+    "heading": "Inteligente, Interactiva",
+    "content": "Interactuamos con usted para diseñar una solución a la medida de sus necesidades. Medimos y analizamos el desempeño de nuestra solución para mejorarla continuamente.",
+    "svg": "frame"
+  },
+  {
+    "heading": "Confiable",
+    "content": "Somos fabricantes con más de 30 años de experiencia y presencia en el mercado, cumpliendo con los más altos estándares, nacionales e internacionales de calidad e inocuidad.",
     "svg": "verified"
   },
   {
-    "heading": "Comprehensive Documentation",
-    "content": "Integrate with ease using ScrewFast's exhaustive guides and libraries. Achieve seamless product adoption with our full suite of documentation designed for your success.",
-    "svg": "books"
-  },
-  {
-    "heading": "User-Centric Design",
-    "content": "Experience the difference with ScrewFast's user-focused design — where functionality meets practicality for an enhanced work experience.",
+    "heading": "Amigable con el medio ambiente, responsable con la sociedad",
+    "content": "Unilimpio es una empresa con responsabilidad social empresarial. Buscamos generar empleo y riqueza de manera sustentable.",
     "svg": "frame"
   }
 ]

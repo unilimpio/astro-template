@@ -1,0 +1,36 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from 'astro';
+import Icon from "../icons/Icon.astro";
+
+interface Props {
+  imagePath: string;
+  altText: string;
+  caption: string;
+}
+
+const { imagePath, altText, caption } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/hero/*.{jpeg,jpg,png,gif,webp}')
+if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/images/hero/*.{jpeg,jpg,png,gif,webp}"`);
+
+
+---
+
+<!-- Injecting item i of the carousel -->
+<div class="hidden duration-700 ease-in-out static" data-carousel-item="active">
+  
+  <Image
+    src={images[imagePath]()}
+    alt={altText}
+    class="h-full w-full scale-110 object-cover object-center"
+    draggable={"false"}
+    loading={"eager"}
+    
+  />
+  <div class="absolute top-1 left-0">
+    <span class="ml-3 m-1 font-bold text-white text-xs">{caption}</span>
+    
+  </div>
+  
+</div>

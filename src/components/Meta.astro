@@ -1,7 +1,7 @@
 ---
 import { getImage } from "astro:assets";
 import { OG, SEO, SITE } from "@data/constants";
-import faviconSvgSrc from "@images/icon.svg";
+import faviconSvgSrc from "@images/logo-unilimpio.svg";
 import faviconSrc from "@images/icon.png";
 
 // Default properties for the Meta component. These values are used if props are not provided.
@@ -37,6 +37,7 @@ const socialImage = Astro.url.origin + socialImageRes.src; // Get the full URL o
 const languages: { [key: string]: string } = {
   en: "",
   fr: "fr",
+  es: "es",
 };
 
 function createHref(lang: string, prefix: string, path: string): string {

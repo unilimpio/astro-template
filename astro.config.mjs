@@ -8,13 +8,13 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   // https://docs.astro.build/en/guides/images/#authorizing-remote-images
-  site: "https://screwfast.uk",
+  site: "https://unilimpio.com",
   image: {
-    domains: ["images.unsplash.com"],
+    domains: [""],
   },
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "fr"],
+    locales: ["en", "fr", "es"],
     fallback: {
       fr: "en",
     },
@@ -31,11 +31,12 @@ export default defineConfig({
         locales: {
           en: "en", // The `defaultLocale` value must present in `locales` keys
           fr: "fr",
+          es: "es",
         },
       },
     }),
     starlight({
-      title: "ScrewFast Docs",
+      title: "Unilimpio Docs",
       defaultLocale: "root",
       locales: {
         root: {
@@ -80,7 +81,7 @@ export default defineConfig({
         },
       ],
       social: {
-        github: "https://github.com/mearashadowfax/ScrewFast",
+        github: "https://github.com/unilimpio-sa",
       },
       disable404Route: true,
       customCss: ["./src/styles/starlight.css"],

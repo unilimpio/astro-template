@@ -1,12 +1,12 @@
 import ogImageSrc from "@images/social.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Unilimpio",
+  tagline: "Soluciones de Higiene Profesional",
+  description: "Unilimpio es el aliado en higiene profesional para organizaciones y empresas que le permite generar ahorros importantes al mismo tiempo que mantiene el más alto estándar de higiene, inocuidad y bienestar para sus colaboradores, clientes y ususarios. Explore nuestro catálogo o envienos un mensaje para ser atendido por uno de nuestros asesores.",
+  description_short: "Unilimpio, es su aliado para una solución definitiva a sus requeriomioentos de higiene profesional.",
+  url: "https://unilimpio.com",
+  author: "MFC",
 };
 
 export const SEO = {
@@ -15,7 +15,7 @@ export const SEO = {
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    inLanguage: "en-US",
+    inLanguage: "es-EC",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -30,10 +30,10 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "es_EC",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Soluciones de higiene profesional.`,
+  description: "Contáctenos hoy mismo y descubra como lograr ahorro, mejor uso de productos, asi como mayor satisfacción y bienestar para sus colaboradores y clientes a través de soluciones adecuadas y sustentables de higiene profesional.",
   image: ogImageSrc,
 };
